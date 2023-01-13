@@ -1,0 +1,77 @@
+.decor {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background : linear-gradient(lightblue, rgb(196, 93, 110));
+  overflow: scroll;
+}
+
+.heading{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px 2px lightseagreen;
+  font-weight: 80px;
+  padding: 2%;
+}
+
+
+
+.funcbtn{
+  display: inline-block;
+  border: 2px solid black;
+  width: 290px;
+  height: 50px;
+  border-radius: 30px;
+ /* display: inline-block; */
+ /* bottom: 587px; */
+  background-color: tomato;
+  font-weight: bold;
+  position: absolute;
+  left: 17%;
+}
+
+.compbtn{
+  display: inline-block;
+  border: 2px solid black;
+  width: 290px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: aqua;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  bottom: 76%;
+}
+
+.design1{
+  width: 33%;
+  height: 220px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: blueviolet;
+  display: inline-block;
+  margin: 150px 10px 0px 40px;
+  position: absolute;
+  right: 8%;
+  margin-top: 20%;
+  
+}
+
+
+
+.design2{
+  width: 33%;
+  height: 220px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: lightgreen;
+  display: inline-block;
+  margin: 150px 40px 0px 10px;
+  position: fixed;
+  left: 3%;
+  margin-top: 20%;
+}
+
+
+
+
+
